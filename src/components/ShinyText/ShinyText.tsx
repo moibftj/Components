@@ -75,7 +75,7 @@ const ShinyText: React.FC<ShinyTextProps> = ({
           style={{
             fontSize: `${fontSize}px`,
             fontWeight: "bold",
-            background: `linear-gradient(${gradientAngle}deg, rgba(255,255,255,0.8), rgba(255,215,0,${shineOpacity}), rgba(192,192,192,${shineOpacity}), rgba(255,255,255,0.9))`,
+            background: `linear-gradient(${gradientAngle}deg, rgba(255,165,0,0.9), rgba(255,140,0,${shineOpacity}), rgba(192,192,192,${shineOpacity}), rgba(255,165,0,0.8))`,
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundSize: "200% 200%",
