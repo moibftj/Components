@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ShinyText from "./ShinyText/ShinyText";
-import ControlPanel from "./ShinyText/ControlPanel";
+import ShinyText from "./ShinyText/ShinyText.tsx";
+import ControlPanel from "./ShinyText/ControlPanel.tsx";
 import {
   Card,
   CardContent,
